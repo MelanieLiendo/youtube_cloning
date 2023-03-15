@@ -109,5 +109,220 @@ a:link {
 .firstgrid {
     display: grid;
     grid-template-columns: 1fr;
+    background-color: whitesmoke;
 
+}
+
+.firstgrid_one {
+    list-style: none;
+    border-bottom-color: gainsboro;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-left: 1em;
+    height: 30vh;
+
+}
+
+.firstgrid_one img {
+    width: 50px;
+    height: 50px;
+}
+
+.firstgrid_two {
+    list-style: none;
+    border-bottom-color: gainsboro;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-left: 1em;
+    
+}
+
+.firstgrid_two img {
+    width: 50px;
+    height: 50px;
+}
+
+.firstgrid_three {
+    border-bottom-color: gainsboro;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-left: 1em;
+}
+
+.firstgrid_four {
+    border-bottom-color: gainsboro;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-left: 1em;
+
+}
+
+.firstgrid_four_bis {
+    list-style: none;
+    padding: 0;
+
+}
+
+.firstgrid_four_bis img {
+    width: 50px;
+    height: 50px;
+}
+
+.firstgrid_five {
+    list-style: none;
+    border-bottom-color: gainsboro;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-left: 1em;
+
+}
+
+.firstgrid_five img {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+
+.firstgrid_six {
+    border-bottom-color: gainsboro;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-left: 1em;
+
+}
+
+.firstgrid_six_bis {
+    list-style: none;
+    padding: 0;
+
+}
+
+.firstgrid_six_bis img {
+    width: 50px;
+    height: 50px;
+}
+
+.firstgrid_seven {
+    list-style: none;
+    border-bottom-color: gainsboro;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-left: 1em;
+}
+
+.firstgrid_seven img {
+    width: 50px;
+    height: 50px;
+}
+
+
+.secondgrid_topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+.secondgrid_topbar div {
+    display: flex;
+    align-items: center;
+
+
+}
+
+.secondgrid_topbar_list {
+    display: flex;
+    list-style: none;
+    text-align: center;
+
+}
+
+.secondgrid_topbar_list li {
+    padding-left: 1em;
+    font-size: 13px;
+}
+
+.secondgrid_topbar img {
+    width: 40px;
+    height: 40px;
+    padding-left: 1em;
+}
+
+.backgroundscreen {
+    background-image: url(./images/backgroungimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height: 50vh;
+}
+
+.backgroundscreen img {
+    width: 50px;
+    height: 50px;
+}
+
+.gridpictures {
+    width: 100%;
+}
+
+
+.gridrow1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom-color: gainsboro;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    font-size: 13px;
+    color: grey;
+}
+
+.gridrow1 h1 {
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+
+.gridrow2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom-color: gainsboro;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    font-size: 13px;
+    color: grey;
+}
+
+.gridrow2 h1 {
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+
+.gridrow3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-bottom-color: gainsboro;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    font-size: 13px;
+    color: grey;
+}
+
+.gridrow3 h1 {
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+
+.gridrow4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 13px;
+    color: grey;
+}
+
+.gridrow4 h1 {
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
 }
