@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles.css">
     <title>Youtube</title>
 </head>
 <body>
 
 
     <!--first top bar-->
-    <section>
-        <article>
+    <section class="topbar">
+        <article class="topbar_left">
             <!--small icon-->
-            <img src="./images/security_topbar.jpg" alt="security icon">
+            <img class="security" src="./images/security_topbar.jpg" alt="security icon">
             <!--h1 text-->
             <h1>A privacy remember from YouTube, a Google company</h1>
         </article>
         <!--list-->
         <nav>
-            <ul>
+            <ul class="topbar_nav">
                 <li><a href="">REMIND ME LATER</a></li>
                 <li><a href="">REVIEW</a></li>
             </ul>
@@ -28,21 +29,21 @@
     </section>
 
     <!--second top bar-->
-    <section>
-        <article>
+    <section class="secondbar">
+        <article class="secondbar_left">
             <!--hamburger-->
             <span>|||</span>
             <!--youtube logo-->
             <img src="./images/youtubelogo_topbar.jpg" alt="youtube logo">
         </article>
 
-        <article>
+        <article class="seconbar_middle">
             <!--search-->
         </article>
 
-        <article>
+        <article class="secondbar_right">
             <!--4 icon list-->
-            <ul>
+            <ul class="secondbar_right_list">
                 <img src="./images/camaratopbar.png " alt="camara">
                 <img src="./images/cuadradostopbar.png" alt="cuadrados">
                 <img src="./images/reenviartopbar.png" alt="reenviar">
@@ -57,9 +58,9 @@
 
 
     <!--grid2-->    
-    <section>
+    <section class="generalgrid">
         <!--first grid column-->
-        <article>
+        <article class="fistgrid">
             <!--8 grid column-->
                 <!-- home/ trending/subscription list-->
                 <nav>
@@ -76,9 +77,12 @@
                 </nav>
 
                 <!--comment and button-->
-                <p>Sign in to like videos, comment, and suscribe.</p>
-                <button><img src="./images/signintopbar.png" alt="icon">SIGN IN</button>
+                <div>
+                    <p>Sign in to like videos, comment, and suscribe.</p>
+                    <button><img src="./images/signintopbar.png" alt="icon">SIGN IN</button>
+                </div>
                 <!--best of youtube-->
+                <div>
                     <!--h1-->
                     <h1>BEST OF YOUTUBE</h1>
                     <!--7 item list-->
@@ -91,17 +95,20 @@
                         <li><img src="./images/livesidebar.png" alt="">Live</li>
                         <li><img src="./images/360videosidebar.png" alt="">360° Video</li>
                     </nav>
+                </div>
                 <!--browse channels-->
-                    <nav>
-                        <li><img src="./images/browsesidebar.png" alt="">Browse channels</li>
-                    </nav>
-                <!--more from youtube-->
-                <h1>MORE FROM YOUTUBE</h1>
-                <!--2 item list-->
                 <nav>
-                    <li><img src="./images/youtubepremiunsidebar.png" alt="">YouTube Premium</li>
-                    <li><img src="./images/live2sidebar.png" alt="">Live</li>
+                    <li><img src="./images/browsesidebar.png" alt="">Browse channels</li>
                 </nav>
+                <!--more from youtube-->
+                <div>
+                    <h1>MORE FROM YOUTUBE</h1>
+                    <!--2 item list-->
+                    <nav>
+                        <li><img src="./images/youtubepremiunsidebar.png" alt="">YouTube Premium</li>
+                        <li><img src="./images/live2sidebar.png" alt="">Live</li>
+                    </nav>
+                </div>
                 <!--4 item list-->
                 <nav>
                     <li><img src="./images/settingssidebar.png" alt="">Settings</li>
@@ -110,77 +117,254 @@
                     <li><img src="./images/sendfeedbacksidebar.png" alt="">Send feedback</li>
                 </nav>
                 <!--copyrights-->
-                <p><a href="" alt="">About</a><a href="" alt="">Press</a><a href="" alt="">Copyright</a>
-                    <a href="" alt="">Contact us</a><a href="" alt="">Creators</a>
-                    <a href="" alt="">Advertise</a><a href="" alt="">Developers</a>
-                </p>
-                <p><a href="" alt="">Terms</a><a href="" alt="">Privacy</a><a href="" alt="">Policy & Safety</a>
-                    <a href="" alt="">Test new features</a></p>
-                <p>2019 YouTube, LLC YouTube, a Google company</p>
+                <div>
+                    <p><a href="" alt="">About</a><a href="" alt="">Press</a><a href="" alt="">Copyright</a>
+                        <a href="" alt="">Contact us</a><a href="" alt="">Creators</a>
+                        <a href="" alt="">Advertise</a><a href="" alt="">Developers</a>
+                    </p>
+                    <p><a href="" alt="">Terms</a><a href="" alt="">Privacy</a><a href="" alt="">Policy & Safety</a>
+                        <a href="" alt="">Test new features</a></p>
+                    <p>2019 YouTube, LLC YouTube, a Google company</p>
+                </div>
 
             <!--8 grid column-->
         <!--end first grid column-->
         </article>
 
         <!--second grid column-->
+        <article>
             <!--topbar-->
+            <section>
                 <!--icon-->
-                <!--h1-->
+                <img src="./images/infomain.png" alt="information icon">
+                <!--p-->
+                <p>Our Terms of Service have been updated. Please review the new Terms.</p>
                 <!--2 item list-->
+                <nav>
+                    <ul>
+                        <li><a href="">OK</a></li>
+                        <li><a href="">REVIEW</a></li>
+                    </ul>
+                </nav>
             <!--end topbar-->
+            </section>
 
             <!--background image screen-->
-                <!--title-->
+            <section>
+                <!--youtube music logo-->
+                <img src="./images/youtubemusiclogo.jpg" alt="Youtube music logo">
                 <!--second title-->
+                <h1>Our new music streaming service is here</h1>
                 <!--button-->
+                <button>LET´S GO</button>
             <!--end background image screen-->
+            </section>
 
-                <!--4 grid column-->
-
-                    <!--trending-->
-                        <!--title-->
-                        <!-- grid 4 columns-->
+            <!--4 grid column-->
+            <section>
+                <!--trending-->
+                <div>
+                    <!--p-->
+                    <p>Trending</p>
+                    <!-- grid 4 columns-->
+                    <div>
+                        <div>
                             <!--image-->
+                            <img src="./images/a.png" alt="Djmario">
                             <!--heading-->
+                            <h1>ESTE JUGADOR NO QUIERE FICHAR POR EL CITY......</h1>
                             <!--subheading-->
-                        <!--end grid 4 columns-->
-                    <!--end trending-->
+                            <p>DjMaRiiO</p>
+                            <p>930K views - 19 hours ago</p>
+                        </div>
+                        <div>
+                            <!--image-->
+                            <img src="./images/b.png" alt="Luisito Comunica">
+                            <!--heading-->
+                            <h1>Demasiados perfiles falsos por un viaje gratis</h1>
+                            <!--subheading-->
+                            <p>Luisito Comunica</p>
+                            <p>2,7M views - 1 day ago</p>
+                        </div>
+                        <div>
+                            <!--image-->
+                            <img src="./images/c.png" alt="ratolina">
+                            <!--heading-->
+                            <h1>Countouring para la vida real | Tutorial paso a paso</h1>
+                            <!--subheading-->
+                            <p>ratolina</p>
+                            <p>126K views - 15 hours ago</p>
+                        </div>
+                        <div>
+                            <!--image-->
+                            <img src="./images/d.png" alt="ROSALIA">
+                            <!--heading-->
+                            <h1>ROSALÍA, Ozuna - Yo x Ti, Tu x Mi (Official Video)</h1>
+                            <!--subheading-->
+                            <p>ROSALÍA</p>
+                            <p>8.3M viewa - 18 hours ago</p>
+                        </div>
+                    <!--end grid 4 columns-->
+                    </div>
+                <!--end trending-->
+                </div>
 
-                    <!--cnco-->
+                <!--cnco-->
+                <div>
+                    <div>
                         <!--icon-->
                         <!--title-->
+                        <h1>CNCO</h1>
                         <!--subtitle-->
-                        <!--grid 3 columns-->
-                            <!--image-->
-                            <!--heading-->
-                            <!--subheading-->
-                        <!--end grid 3 columns-->
-                        <!--button-->            
-                    <!--end cnco-->
+                        <h2>Recommended channel</h2>
+                        <!--button-->   
+                        <button>SUBSCIBE 9.2M</button>
 
-                    <!--adevendure movies-->
+                    </div>
+                    <!--grid 3 columns-->
+                    <div>
+                        <div>
+                            <!--image-->
+                            <img src="./images/e.png" alt="Latin Music">
+                            <!--heading-->
+                            <h1>Pop Latino Mix 2019 - Ozuna, Luis Fonsi, Demi Lovato,....</h1>
+                            <!--subheading-->
+                            <p>Latin Music</p>
+                            <p>3M views - 1 month ago</p>
+                        </div>
+                        <div>
+                            <!--image-->
+                            <img src="./images/f.png" alt="Latin Club">
+                            <!--heading-->
+                            <h1>Fiesta Latina 2019 - Malumna, Luis Fonsi, Ozuna, J Balvin, ...</h1>
+                            <!--subheading-->
+                            <p>Latin Club</p>
+                            <p>624K views - 1 month ago</p>
+                        </div>
+                        <div>
+                            <!--image-->
+                            <img src="./images/g.png" alt="Abraham Mateo">
+                            <!--heading-->
+                            <h1>Abraham Mateo, CNCO - Me Vuelvo Loco (Official Video)</h1>
+                            <!--subheading-->
+                            <p>Abraham Mateo</p>
+                            <p>10M views - 2 weeks ago</p>
+                        </div>
+                    <!--end grid 3 columns-->
+                    </div>         
+                <!--end cnco-->
+                </div>
+
+                <!--adevendure movies-->
+                <div>
+                    <div>
                         <!--icon-->
                         <!--title-->
+                        <h1>Adventure Movies - Topic</h1>
                         <!--subtitle-->
+                        <h2>Reccomended channel</h2>
+                        <!--button-->   
+                        <button>SUBSCIBE 143K</button>
+                    </div>
                         <!--grid 4 columns-->
+                    <div>
+                        <div>
                             <!--image-->
+                            <img src="./images/h.png" alt="New Trail Buzz">
                             <!--heading-->
+                            <h1>X-MEN APOCALYPSE Bloopers Gag Reel (2016)</h1>
                             <!--subheading-->
-                        <!--end grid 4 columns-->
-                    <!--end avdventure movies-->
+                            <p>New Trailer Buzz</p>
+                            <p>2.1M views - 2 years ago</p>
+                        </div>
+                        <div>
+                            <!--image-->
+                            <img src="./images/i.png" alt="spellbooked">
+                            <!--heading-->
+                            <h1>hermione being annoyed for 8 movies straight</h1>
+                            <!--subheading-->
+                            <p>spellbooked</p>
+                            <p>6.2M views - 1 year ago</p>
+                        </div>
+                        <div>
+                            <!--image-->
+                            <img src="./images/j.png" alt="H20 - just add water">
+                            <!--heading-->
+                            <h1>H20 . justa add water S1 E1 - Metamorphosis (full episode)</h1>
+                            <!--subheading-->
+                            <p>H20 - just add water</p>
+                            <p>10M views - 4 years ago</p>
+                        </div>
+                        <div>
+                            <!--image-->
+                            <img src="./images/k.png" alt="Amazingly_randy">
+                            <!--heading-->
+                            <h1>Hercules in New York (1969)</h1>
+                            <!--subheading-->
+                            <p>Amazingly_randy</p>
+                            <p>20M views - 7 years ago</p>
+                        </div>
+                    <!--end grid 4 columns-->
+                    </div>
+                <!--end avdventure movies-->
+                </div>
 
-                    <!--recipes-->
-                        <!--icon-->
-                        <!--title-->
-                        <!--subtitle-->
-                        <!--grid 4 columns-->
+                <!--recipes-->
+                <div>
+                    <!--icon-->
+                    <!--title-->
+                    <h1>Recipes - Topic</h1>
+                    <!--subtitle-->
+                    <h2>Recommended channel</h2>
+                     <!--button-->   
+                     <button>SUBSCIBE 663K</button>
+                    <!--grid 4 columns-->
+                    <div>
+                        <div>
                             <!--image-->
+                            <img src="./images/l.png" alt="NFL Network">
                             <!--heading-->
+                            <h1>What Goes into Feeding an NFL Team</h1>
                             <!--subheading-->
-                        <!--end grid 4 columns-->
-                    <!--end recipes-->
-                    <!--end second grid column-->
-                <!--4 grid column-->
+                            <p>NFL Network</p>
+                            <p>2.6M views - 6 days ago</p>
+                        </div>
+                        <div>
+                            <!--image-->
+                            <img src="./images/m.png" alt="ETTV">
+                            <!--heading-->
+                            <h1>egg fried cheese toast 2,500KRW / korean street...</h1>
+                            <!--subheading-->
+                            <p>ETTV</p>
+                            <p>4.6M views - 2 weeks ago</p>
+                        </div>
+                        <div>
+                            <!--image-->
+                            <img src="./images/n.png" alt="Ryan ToysReview">
+                            <!--heading-->
+                            <h1>Ryan Pretend Play Cooking with Kitchen Play Set and...</h1>
+                            <!--subheading-->
+                            <p>Ryan ToysReview</p>
+                            <p>4.9M views - 4 weeks ago</p>
+                        </div>
+                        <div>
+                            <!--image-->
+                            <img src="./images/o.png" alt="Tasty">
+                            <!--heading-->
+                            <h1>1 Minute Vs. 1 Hour Vs. 1 Day Noodles - Tasty</h1>
+                            <!--subheading-->
+                            <p>Tasty</p>
+                            <p>3.4M views - 6 days ago</p>
+                        </div>
+                    <!--end grid 4 columns-->
+                    </div>
+                <!--end recipes-->
+                </div>
+        
+            <!--end 4 grid column-->
+            </section>
+        <!--end second grid column-->
+        </article>
             
 
     <!--end grid2-->

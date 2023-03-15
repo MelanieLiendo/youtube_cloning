@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-color: gainsboro;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    
+}
+
+.topbar_left {
+    display: flex;
+    align-items: center;
+}
+
+.topbar_left h1 {
+    padding-left: 1em;
+    font-size: 13px;
+}
+
+.security {
+    width: 40px;
+    height: 40px;
+    padding-left: 1em;
+}
+
+.topbar_nav {
+    display: flex;
+    list-style: none;
+    font-size: 13px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.topbar_nav li {
+    padding: 0 1em;
+}
+
+.secondbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1em;
+    border-bottom-color: gainsboro;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.secondbar span{
+    font-weight: bold;
+    transform: rotate(90deg);
+    
+}
+
+.secondbar_left {
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+}
+
+.secondbar_left img {
+    width: 80px;
+    height: 40px;
+    padding-left: 2em;
+}
+
+.secondbar_right {
+    display: flex;
+    align-items: center;
+    
+}
+
+.secondbar_right button {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: blue;
+    border-color: blue;
+    padding-left: 1em;
+}
+
+.secondbar_right_list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.secondbar_right img {
+    width: 30px;
+    height: 30px;
+}
+
+.secondbar_right_list img {
+    width: 50px;
+    height: 50px;
+}
+
+.generalgrid {
+    display: grid;
+    grid-template-columns: 230px 1fr;
+}
+.firstgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
