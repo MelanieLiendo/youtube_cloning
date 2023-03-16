@@ -1,7 +1,14 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
 body {
     margin: 0;
 }
-
+.wrapper {
+ max-width: 100%;
+}
 .topbar {
     display: flex;
     align-items: center;
@@ -56,7 +63,8 @@ a:link {
     top: 0;
     left: 0;
     background-color: white;
-
+    align-items: center;
+    
 }
 
 .secondbar span{
@@ -77,6 +85,29 @@ a:link {
     padding-left: 2em;
 }
 
+.secondbar_middle {
+    align-items: center;
+    
+}
+
+.secondbar_middle input {
+    width: 550px;
+    height: 25px;
+    margin-left: 4em;
+
+    
+}
+
+.secondbar_middle button {
+    height: 31px;
+
+}
+
+.secondbar_middle img {
+    width: 20px;
+
+}
+
 .secondbar_right {
     display: flex;
     align-items: center;
@@ -84,7 +115,7 @@ a:link {
 }
 
 .secondbar_right button {
-    width: 80px;
+    width: 10px;
     height: 30px;
     display: flex;
     align-items: center;
@@ -92,6 +123,7 @@ a:link {
     color: blue;
     border-color: blue;
     padding-left: 1em;
+    background-color: white;
 
 }
 
@@ -273,10 +305,66 @@ a:link {
 }
 
 .gridpictures {
+    margin-left: 4em;
     width: 100%;
+  
+}
+
+.gridpictures button{
+    color: white;
+    background-color: red;
+    border: 0;
+    height: 30px;
+    width: 130px;
+
+}
+
+.cncotitle{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.cncotitle_left {
+    display: flex;
+    align-items: center;
 }
 
 
+.moviestitle{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.moviestitle_left {
+    display: flex;
+    align-items: center;
+
+}
+
+.topictitle{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.topictitle_left {
+    display: flex;
+    align-items: center;
+}
+.recommended {
+    color: grey;
+    font-size: 13px;
+    padding-left: 1em;
+}
+
+.trending {
+    font-weight: bold;
+}
 
 
 .gridrow1 {
@@ -293,12 +381,14 @@ a:link {
     font-weight: bold;
     font-size: 15px;
     color: black;
-    margin: 0%;
+    margin: 0 0 10px 0;
 }
 
-.gridrow1 h1 {
- 
+.gridrow1 p{
+    margin: 3px 0;
 }
+
+
 
 .gridrow2 {
     display: grid;
@@ -314,7 +404,13 @@ a:link {
     font-weight: bold;
     font-size: 15px;
     color: black;
+    margin: 0 0 10px 0;
 }
+
+.gridrow2 p{
+    margin: 3px 0;
+}
+
 
 .gridrow3 {
     display: grid;
@@ -330,7 +426,13 @@ a:link {
     font-weight: bold;
     font-size: 15px;
     color: black;
+    margin: 0 0 10px 0;
 }
+
+.gridrow3 p{
+    margin: 3px 0;
+}
+
 
 .gridrow4 {
     display: grid;
@@ -343,4 +445,9 @@ a:link {
     font-weight: bold;
     font-size: 15px;
     color: black;
+    margin: 0 0 10px 0;
+}
+
+.gridrow4 p{
+    margin: 3px 0;
 }

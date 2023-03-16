@@ -8,8 +8,8 @@
     <title>Youtube</title>
 </head>
 <body>
-
-
+<div class="wrapper">
+    
     <!--first top bar-->
     <section class="topbar">
         <article class="topbar_left">
@@ -37,8 +37,10 @@
             <img src="./images/youtubelogo_topbar.jpg" alt="youtube logo">
         </article>
 
-        <article class="seconbar_middle">
+        <article class="secondbar_middle">
             <!--search-->
+            <input type="" alt="" name="search" placeholder="Search">
+            <button><img src="./images/lupa.png" alt="icon"></button>
         </article>
 
         <article class="secondbar_right">
@@ -170,11 +172,11 @@
             </section>
 
             <!--4 grid column-->
-            <section class="grid_pictures">
+            <section class="gridpictures">
                 <!--trending-->
                 <div>
                     <!--p-->
-                    <p>Trending</p>
+                    <p class="trending">Trending</p>
                     <!-- grid 4 columns-->
                     <div class="gridrow1">
                         <div>
@@ -220,12 +222,14 @@
 
                 <!--cnco-->
                 <div>
-                    <div>
-                        <!--icon-->
-                        <!--title-->
-                        <h1>CNCO</h1>
-                        <!--subtitle-->
-                        <h2>Recommended channel</h2>
+                    <div class="cncotitle">
+                        <div class="cncotitle_left">
+                            <!--icon-->
+                            <!--title-->
+                            <h1>CNCO</h1>
+                            <!--subtitle-->
+                            <h2 class="recommended">Recommended channel</h2>
+                        </div>
                         <!--button-->   
                         <button>SUBSCIBE 9.2M</button>
 
@@ -266,12 +270,14 @@
 
                 <!--adevendure movies-->
                 <div>
-                    <div>
-                        <!--icon-->
-                        <!--title-->
-                        <h1>Adventure Movies - Topic</h1>
-                        <!--subtitle-->
-                        <h2>Reccomended channel</h2>
+                    <div class="moviestitle">
+                        <div class="moviestitle_left">
+                            <!--icon-->
+                            <!--title-->
+                            <h1>Adventure Movies - Topic</h1>
+                            <!--subtitle-->
+                            <h2 class="recommended">Reccomended channel</h2>
+                        </div>
                         <!--button-->   
                         <button>SUBSCIBE 143K</button>
                     </div>
@@ -320,13 +326,17 @@
 
                 <!--recipes-->
                 <div>
-                    <!--icon-->
-                    <!--title-->
-                    <h1>Recipes - Topic</h1>
-                    <!--subtitle-->
-                    <h2>Recommended channel</h2>
-                     <!--button-->   
-                     <button>SUBSCIBE 663K</button>
+                    <div class="topictitle">
+                        <div class="topictitle_left">
+                            <!--icon-->
+                            <!--title-->
+                            <h1>Recipes - Topic</h1>
+                            <!--subtitle-->
+                            <h2 class="recommended">Recommended channel</h2>
+                        </div>
+                        <!--button-->   
+                        <button>SUBSCIBE 663K</button>
+                    </div>
                     <!--grid 4 columns-->
                     <div class="gridrow4">
                         <div>
@@ -379,5 +389,7 @@
     <!--end grid2-->
     </section>
     
+</div>
+
 </body>
 </html>
